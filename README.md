@@ -1,1 +1,1 @@
-# Matrix_Multiplication_OpenMP-
+# Matrix_Multiplication_OpenMP
