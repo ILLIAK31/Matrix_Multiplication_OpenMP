@@ -1,0 +1,150 @@
+CPU model name : Intel(R) Xeon(R) Gold 6240 CPU @ 2.60GHz
+Cores : 8
+
+(N) : 1 000
+
+
+-Threads 1
+----------------------------
+4x4
+Multiplication time: 277.168 ms
+Parallel multiplication time: 298.177 ms
+Parallel multiplication with transposed time: 145.826 ms
+Parallel multiplication with tiling: 306.024 ms
+----------------------------
+8x8
+Multiplication time: 1304.39 ms
+Parallel multiplication time: 1220.45 ms
+Parallel multiplication with transposed time: 581.573 ms
+Parallel multiplication with tiling: 1084.35 ms
+----------------------------
+16x16
+Multiplication time: 1274.77 ms
+Parallel multiplication time: 1219.81 ms
+Parallel multiplication with transposed time: 577.981 ms
+Parallel multiplication with tiling: 997.215 ms
+-----------------------------
+32x32
+Multiplication time: 1221 ms
+Parallel multiplication time: 1236.29 ms
+Parallel multiplication with transposed time: 588.085 ms
+Parallel multiplication with tiling: 1016.21 ms
+-----------------------------
+
+
+-Threads 2
+----------------------------
+4x4
+Multiplication time: 580.023 ms
+Parallel multiplication time: 551.061 ms
+Parallel multiplication with transposed time: 285.961 ms
+Parallel multiplication with tiling: 502.153 ms
+----------------------------
+8x8
+Multiplication time: 574.024 ms
+Parallel multiplication time: 570.471 ms
+Parallel multiplication with transposed time: 295.807 ms
+Parallel multiplication with tiling: 510.245 ms
+----------------------------
+16x16
+Multiplication time: 549.212 ms
+Parallel multiplication time: 552.958 ms
+Parallel multiplication with transposed time: 291.058 ms
+Parallel multiplication with tiling: 485.941 ms
+-----------------------------
+32x32
+Multiplication time: 1221 ms
+Parallel multiplication time: 1236.29 ms
+Parallel multiplication with transposed time: 588.085 ms
+Parallel multiplication with tiling: 1016.21 ms
+-----------------------------
+
+
+
+-Threads 4
+----------------------------
+4x4
+Multiplication time: 580.023 ms
+Parallel multiplication time: 551.061 ms
+Parallel multiplication with transposed time: 285.961 ms
+Parallel multiplication with tiling: 502.153 ms
+----------------------------
+8x8
+Multiplication time: 277.168 ms
+Parallel multiplication time: 298.177 ms
+Parallel multiplication with transposed time: 145.826 ms
+Parallel multiplication with tiling: 306.024 ms
+----------------------------
+16x16
+Multiplication time: 354.396 ms
+Parallel multiplication time: 309.054 ms
+Parallel multiplication with transposed time: 156.786 ms
+Parallel multiplication with tiling: 286.578 ms
+-----------------------------
+32x32
+Multiplication time: 1221 ms
+Parallel multiplication time: 1236.29 ms
+Parallel multiplication with transposed time: 588.085 ms
+Parallel multiplication with tiling: 1016.21 ms
+-----------------------------
+
+
+
+-Threads 8
+----------------------------
+4x4
+Multiplication time: 205.055 ms
+Parallel multiplication time: 234.422 ms
+Parallel multiplication with transposed time: 125.076 ms
+Parallel multiplication with tiling: 219.911 ms
+----------------------------
+8x8
+Multiplication time: 277.168 ms
+Parallel multiplication time: 298.177 ms
+Parallel multiplication with transposed time: 145.826 ms
+Parallel multiplication with tiling: 306.024 ms
+----------------------------
+16x16
+Multiplication time: 354.396 ms
+Parallel multiplication time: 309.054 ms
+Parallel multiplication with transposed time: 156.786 ms
+Parallel multiplication with tiling: 286.578 ms
+-----------------------------
+32x32
+Multiplication time: 1221 ms
+Parallel multiplication time: 1236.29 ms
+Parallel multiplication with transposed time: 588.085 ms
+Parallel multiplication with tiling: 1016.21 ms
+-----------------------------
+
+
+
+
+(N) : 3 000
+32x32 
+
+----------------------------
+-Threads 1
+Multiplication time: 219456 ms
+Parallel multiplication time: 220689 ms
+Parallel multiplication with transposed time: 20127.5 ms
+Parallel multiplication with tiling: 188818 ms
+----------------------------
+-Threads 2
+Multiplication time: 219456 ms
+Parallel multiplication time: 220689 ms
+Parallel multiplication with transposed time: 20127.5 ms
+Parallel multiplication with tiling: 188818 ms
+----------------------------
+-Threads 4
+Multiplication time: 53230.2 ms
+Parallel multiplication time: 53319.2 ms
+Parallel multiplication with transposed time: 5019.47 ms
+Parallel multiplication with tiling: 48338.8 ms
+----------------------------
+-Threads 8
+Multiplication time: 53230.2 ms
+Parallel multiplication time: 53319.2 ms
+Parallel multiplication with transposed time: 5019.47 ms
+Parallel multiplication with tiling: 48338.8 ms
+-----------------------------
